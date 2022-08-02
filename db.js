@@ -1,5 +1,5 @@
 // Получаем класс пула из пакета PG
-const Pool = requre("pg").Pool;
+const Pool = require("pg").Pool;
 // .. и создаём его экземпляр, с пом-ю которого будем делать запросы к БД
 const pool = new Pool({
   user: "postgres",
